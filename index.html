@@ -22,6 +22,7 @@
       href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
 
   <body id="mobile_wrap">
@@ -615,7 +616,7 @@
         </div>
       </div>
     </div>
-
+    
     <script src="js/jquery-1.10.1.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/framework7.js"></script>
@@ -624,5 +625,29 @@
     <script src="js/email.js"></script>
     <script src="js/audio.min.js"></script>
     <script src="js/my-app.js"></script>
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/b4c2d36424d9f6863481e7d0a/dbd059bbc08a858bc8e0428be.js");</script>
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "114755889897486");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+    
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: 'v14.0'
+        });
+      };
+
+      (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
   </body>
 </html>
