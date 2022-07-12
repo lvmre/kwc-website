@@ -19,7 +19,7 @@ deployment:
     - /bin/cp shop.html $DEPLOYPATH
     - /bin/cp subcategories.html $DEPLOYPATH
     - /bin/cp success.html $DEPLOYPATH
-    - /bin/cp tables.html $DEPLOYPATH
+    - /bin/cp school-fees.html $DEPLOYPATH
     - /bin/cp tabs.html $DEPLOYPATH
     - /bin/cp team.html $DEPLOYPATH
     - /bin/cp toggle.html $DEPLOYPATH
