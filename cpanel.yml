@@ -1,0 +1,27 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kwcedu/public_html/en/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp about.html $DEPLOYPATH
+    - /bin/cp blog.html $DEPLOYPATH
+    - /bin/cp categories.html $DEPLOYPATH
+    - /bin/cp chat.html $DEPLOYPATH
+    - /bin/cp checkout.html $DEPLOYPATH
+    - /bin/cp form.html $DEPLOYPATH
+    - /bin/cp contact.html $DEPLOYPATH
+    - /bin/cp downloads.html $DEPLOYPATH
+    - /bin/cp photos.html $DEPLOYPATH
+    - /bin/cp send.html $DEPLOYPATH
+    - /bin/cp shop-item.html $DEPLOYPATH
+    - /bin/cp shop-page2.html $DEPLOYPATH
+    - /bin/cp shop.html $DEPLOYPATH
+    - /bin/cp subcategories.html $DEPLOYPATH
+    - /bin/cp success.html $DEPLOYPATH
+    - /bin/cp tables.html $DEPLOYPATH
+    - /bin/cp tabs.html $DEPLOYPATH
+    - /bin/cp team.html $DEPLOYPATH
+    - /bin/cp toggle.html $DEPLOYPATH
+    - /bin/cp videos.html $DEPLOYPATH
+    - /bin/cp music.html $DEPLOYPATH
